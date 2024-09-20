@@ -21,7 +21,7 @@ class ImageDisplayNode(Node):
         self.video_file = 'output_video.mp4'  # Output video file name
         self.frame_width = 320  # Adjust to match your frame width
         self.frame_height = 240  # Adjust to match your frame height
-        self.frame_rate = 10.0  # Frames per second
+        self.frame_rate = 10.0  # Frames per second (maybe do 20
 
     def listener_callback(self, msg):
         
